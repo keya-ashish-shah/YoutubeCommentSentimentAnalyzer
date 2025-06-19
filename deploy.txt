@@ -1,0 +1,13 @@
+pip install streamlit textblob
+python -m textblob.download_corpora
+
+pip install streamlit textblob snscrape pandas matplotlib
+python -m textblob.download_corpora
+
+
+
+pip install streamlit textblob google-api-python-client pandas matplotlib
+python -m textblob.download_corpora
+
+
+streamlit run sentiment_app.py
