@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import re
 
 # Replace with your actual API Key
-YOUTUBE_API_KEY = "AIzaSyDKxJz7lkOuESqq04RH9HxHw4SBHMPtKs4"
+YOUTUBE_API_KEY = "ur api key"
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
 # Streamlit setup
